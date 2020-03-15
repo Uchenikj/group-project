@@ -1,0 +1,36 @@
+
+body {
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+.answer {
+    display: flex;
+
+}
+.all {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.dopinf {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.predlog {
+    display: flex;
+    justify-content: flex-start;
+}
+ul.pluses {
+    list-style-type: square;
+}
